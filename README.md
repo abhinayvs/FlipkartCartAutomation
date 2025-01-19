@@ -33,3 +33,5 @@ Automate the “Add to Cart” functionality and order amount validation of an o
 - Navigation to the home page
 
 ---
+
+*** Just add the dependencies correctly and you can directly run it :) ***
