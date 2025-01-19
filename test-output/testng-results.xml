@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-16T09:37:58 IST" name="Suite" finished-at="2025-01-16T09:38:27 IST" duration-ms="28928">
+    <groups>
+    </groups>
+    <test started-at="2025-01-16T09:37:58 IST" name="Test" finished-at="2025-01-16T09:38:27 IST" duration-ms="28928">
+      <class name="MiniProj.FlipkartM">
+        <test-method is-config="true" signature="test_launchApplication()[pri:0, instance:MiniProj.FlipkartM@38cee291]" started-at="2025-01-16T09:37:58 IST" name="test_launchApplication" finished-at="2025-01-16T09:38:07 IST" duration-ms="8395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_launchApplication -->
+        <test-method signature="test_enteringSearchValue()[pri:1, instance:MiniProj.FlipkartM@38cee291]" started-at="2025-01-16T09:38:07 IST" name="test_enteringSearchValue" finished-at="2025-01-16T09:38:13 IST" duration-ms="6034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_enteringSearchValue -->
+        <test-method signature="test_cartForFirstItem()[pri:2, instance:MiniProj.FlipkartM@38cee291]" started-at="2025-01-16T09:38:13 IST" name="test_cartForFirstItem" finished-at="2025-01-16T09:38:18 IST" depends-on-methods="MiniProj.FlipkartM.test_enteringSearchValue" duration-ms="5214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_cartForFirstItem -->
+        <test-method signature="test_cartForSecondItem()[pri:3, instance:MiniProj.FlipkartM@38cee291]" started-at="2025-01-16T09:38:18 IST" name="test_cartForSecondItem" finished-at="2025-01-16T09:38:25 IST" depends-on-methods="MiniProj.FlipkartM.test_cartForFirstItem" duration-ms="6507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_cartForSecondItem -->
+        <test-method signature="test_totalPrice()[pri:4, instance:MiniProj.FlipkartM@38cee291]" started-at="2025-01-16T09:38:25 IST" name="test_totalPrice" finished-at="2025-01-16T09:38:25 IST" depends-on-methods="MiniProj.FlipkartM.test_cartForSecondItem" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_totalPrice -->
+        <test-method signature="validation()[pri:5, instance:MiniProj.FlipkartM@38cee291]" started-at="2025-01-16T09:38:25 IST" name="validation" finished-at="2025-01-16T09:38:25 IST" depends-on-methods="MiniProj.FlipkartM.test_totalPrice" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MiniProj.FlipkartM@38cee291]" started-at="2025-01-16T09:38:25 IST" name="tearDown" finished-at="2025-01-16T09:38:27 IST" duration-ms="2638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MiniProj.FlipkartM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
